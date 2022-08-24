@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contect-Us</title>
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+            background-image: url("three.jpeg");
+
+        }
+
+        #container {
+            height: 407px;
+            width: 300px;
+            background-color: blue;
+        }
+
+        .userInput {
+            margin-left: 10%;
+            margin-bottom: 10%;
+
+        }
+
+        #inputs {
+            height: 25px;
+            width: 200px;
+            margin-top: 2%;
+        }
+        h3{
+            padding-left: 26%;
+            font-size: 29px;
+        }
+        button{
+            margin-left: 224px
+        }
+        a{
+            position: relative;
+            bottom: 43%;
+            right: 30%;
+        }
+        #next{
+            position: relative;
+            bottom: 39%;
+             right: 33%;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <a href="about.html">Previous</a>
+    <div  id="next">
+    <a  href="gallery.html">Next</a>
+    </div>
+    <div id="container">
+        <h3>contact-us</h3>
+        <div>
+            <label class="userInput">Username</label>
+            <div>
+                <input type="text" class="userInput" id="inputs" placeholder="enter the name">
+            </div>
+        </div>
+
+        <div>
+            <label class="userInput">Email id</label>
+            <div>
+                <input type="email" class="userInput" id="inputs" placeholder="enter the mail id">
+            </div>
+        </div>
+
+        <div>
+            <label class="userInput">Message</label>
+            <div>
+                <textarea class="userInput" name="w3review" rows="4" cols="25"></textarea>
+            </div>
+        </div>
+
+        <div>
+            <button onClick="contactDetail()">submit</button>
+        </div>
+
+
+    </div>
+
+    <script>
+        function contactDetail()
+        {
+
+            alert("successfully connected");
+        }
+
+        
+    </script>
+
+</body>
+
+</html>

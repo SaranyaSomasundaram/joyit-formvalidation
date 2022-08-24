@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register and loging</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div id="main-container">
+        <div id="login-register">
+            <button class="loginbutton">Login</button>
+            <button class="registerbutton" onClick="register()">Registration</button>
+        </div>
+
+        <!--this container div is login detail-->
+        <div class="containers" id="container">
+            <p class="login">login</p>
+            <div class="forms">
+                <label id="userinput">Username</label><br>
+                <input type="text" class="input-box" id="login-name" placeholder="enter the name" />
+            </div>
+            <div class="forms">
+                <label id="userinput">Password</label><br>
+                <input type="password" class="input-box" id="login-password" placeholder="enter the password" />
+            </div>
+            <p class="form">forget password</p>
+            <button id="submit" onClick="check()">submit</button>
+
+        </div>
+
+        <!--this container div is registration form detail -->
+        <div class="containers" id="registration">
+            <p class="reg">Registration</p>
+            <div class="forms">
+                <label id="userinput"> Username</label><br>
+                <input type="text" class="input-box" id="firstname" placeholder="enter the firstname" />
+            </div>
+
+            <div class="forms">
+                <label id="userinput"> Email id</label><br>
+                <input type="text" class="input-box" id="email" placeholder="enter the firstname" />
+            </div>
+            <div class="forms">
+                <label id="userinput">Password</label><br>
+                <input type="password" class="input-box" id="pass" placeholder="enter the password" />
+            </div>
+
+            <button id="register" onClick="registerDetails()">submit</button>
+
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+body{
+    background-color: turquoise;
+    display: flex;
+    justify-content: center;
+    background-image: url(img.jpeg);
+}
+.containers{
+    height: 317px;
+    width: 340px;
+    background-color: blue;
+    margin-left: 13%;
+    margin-top: -13%;
+    display: block;
+}
+.login{
+    font-size: 33px;
+    color: white;
+    position: relative;
+    left:39%;
+    top:5%
+}
+.forms{
+    padding-left: 10%;
+    line-height: 170%;
+    padding-top: 7%;
+
+}
+#userinput{
+    font-size: 123%;
+    color:white
+}
+.input-box{
+    height: 25px;
+    width: 65%;
+}
+.form{
+    padding-left: 10%;
+    padding-top: 5%;
+    color: white;
+
+}
+#submit{
+    position: relative;
+    top: 12%;
+    left: 64%;
+    height: 36px;
+    width: 89px;
+}
+#registration{
+    height: 414px;
+    display: none;
+}
+.reg{
+    font-size: 33px;
+    color: white;
+    position: relative;
+    left:30%
+}
+#main-container{
+    height: 462px;
+    width: 448px;
+    /*background-color: aliceblue;*/
+    margin-top: 10%;
+
+}
+#login-register{
+    position: relative;
+    right: -28%;
+    top: -17%;
+}
+.loginbutton{
+    background-color: red;
+    border: 1px solid red;
+    color: white;
+    height: 42px;
+    width: 21%;
+
+}
+.registerbutton{
+    background-color: red;
+    border: 1px solid red;
+    color: white;
+    height: 41px;
+    width: 27%;
+
+
+}
+
+#register{
+    margin-left: 70%;
+    margin-top: 16%;
+    height: 40px;
+    width: 27%;
+}
